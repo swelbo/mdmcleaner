@@ -47,9 +47,9 @@ index2rank = { rank2index[key] : key for key in rank2index }
 #todo: find common names for gtdb and ncbi dbs to simplify things
 #todo: find actual names for ncbi dbs
 dbfiles = { "gtdb" : {	"protblastdbs" : ["gtdbplus_protdb.dmnd"], \
-						"nucblastdbs" : ["concat_refgenomes", "SILVA_138.1_SSURef_NR99_tax_silva", "SILVA_138.1_LSURef_NR99_tax_silva"] ,\
-						"ssu_nucblastdbs" : ["concat_refgenomes", "SILVA_138.1_SSURef_NR99_tax_silva"], \
-						"lsu_nucblastdbs" : ["concat_refgenomes", "SILVA_138.1_LSURef_NR99_tax_silva"], \
+						"nucblastdbs" : ["concat_refgenomes", "SILVA_138.2_SSURef_NR99_tax_silva", "SILVA_138.2_LSURef_NR99_tax_silva"] ,\
+						"ssu_nucblastdbs" : ["concat_refgenomes", "SILVA_138.2_SSURef_NR99_tax_silva"], \
+						"lsu_nucblastdbs" : ["concat_refgenomes", "SILVA_138.2_LSURef_NR99_tax_silva"], \
 						"genome_nucblastdbs" : ["concat_refgenomes"], \
 						"mdmdbs" : ["gtdb_all.accession2taxid.sorted", "gtdb_taxonomy_br.json.gz", "gtdb_lcawalkdb_br.db"] },\
 			"ncbi" : {  "protblastdbs" : ["nr"], \
